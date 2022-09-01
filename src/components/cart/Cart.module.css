@@ -42,6 +42,11 @@
     height: 150px;
 }
 
+.deleteItem button {
+    margin-left: 0;
+    margin-right: 7px;
+}
+
 .totalPrice {
     background-color: #122620;
     color: #F4EBD0;
