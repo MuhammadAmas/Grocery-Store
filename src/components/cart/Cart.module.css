@@ -2,6 +2,17 @@
     text-align: center;
 }
 
+.cartHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.4em 0;
+    margin: 2em 20%;
+    border-radius: 10px;
+    background-color: #122620;
+    color: #F4EBD0;
+}
+
 .cartList {
     display: flex;
     flex-direction: column;
@@ -16,8 +27,8 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 3em;
-    width: 50%;
     border-radius: 12px;
+    width: 50%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 25px 50px -12px;
 }
 
@@ -31,10 +42,20 @@
     height: 150px;
 }
 
+.totalPrice {
+    background-color: #122620;
+    color: #F4EBD0;
+    width: 200px;
+    margin: auto;
+    border-radius: 12px;
+    padding: 6px 2em;
+}
+
 @media (max-width: 768px) {
     .listNodes {
         width: 90%;
     }
+
     .cartImage img {
         width: 100px;
         height: 100px;

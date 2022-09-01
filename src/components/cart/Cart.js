@@ -36,8 +36,8 @@ const Cart = props => {
 
 
 
-    return (<>
-        <h1>CART</h1>
+    return (<div className={classes.cart}>
+        <h1 className={classes.cartHeader}>CART</h1>
         <ul className={classes.cartList}>
             {props.cartItems.map(cartItem => {
                 return (<li className={classes.listNodes} key={Math.random()}>
@@ -64,7 +64,7 @@ const Cart = props => {
             <h1>Total Price</h1>
             <h3>{totalPrice}</h3>
         </div>
-    </>
+    </div>
     )
 
 }

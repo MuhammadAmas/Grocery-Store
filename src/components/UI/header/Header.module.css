@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    padding:  0.5em 1.5em ;
+    background-color: #122620;
+    color: #F4EBD0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1{
+    margin: auto;
+
+}
+.cart{
+    float: flex-end;
+}
