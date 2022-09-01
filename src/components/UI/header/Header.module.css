@@ -1,19 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.header{
-    padding:  0.5em 1.5em ;
+
+.header {
+    padding: 0.5em 1.5em;
     background-color: #122620;
     color: #F4EBD0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header h1{
+
+.header h1 {
     margin: auto;
+    font-size: 3rem;
+}
+
+.cart {
+    /* display: flex;
+    align-items: center; */
+    float: flex-end;
+    width: 45px;
 
 }
-.cart{
-    float: flex-end;
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 1.7rem;
+    }
+
+    .cart {
+        width: 30px;
+
+    }
 }

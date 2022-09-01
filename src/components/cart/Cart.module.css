@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     padding: 0.4em 0;
-    margin: 2em 20%;
+    margin: 2em 10%;
     border-radius: 10px;
     background-color: #122620;
     color: #F4EBD0;
@@ -46,7 +46,7 @@
     background-color: #122620;
     color: #F4EBD0;
     width: 200px;
-    margin: auto;
+    margin: 2em auto;
     border-radius: 12px;
     padding: 6px 2em;
 }
