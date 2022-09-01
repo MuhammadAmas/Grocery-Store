@@ -22,10 +22,6 @@
 }
 
 .itemDetails {
-    /* display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center; */
     padding: 1em;
     border-bottom: 1px solid #e6e6e6;
 }
@@ -35,4 +31,12 @@
     height: 150px;
 }
 
-.deleteItem>button {}
+@media (max-width: 768px) {
+    .listNodes {
+        width: 90%;
+    }
+    .cartImage img {
+        width: 100px;
+        height: 100px;
+    }
+}
