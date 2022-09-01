@@ -5,7 +5,7 @@
 .cartList {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
 }
@@ -13,11 +13,10 @@
 .listNodes {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-around; */
-    gap: 5em;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 3em;
-    width: 70%;
+    width: 50%;
     border-radius: 12px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 25px 50px -12px;
 }
@@ -29,10 +28,11 @@
     justify-content: center; */
     padding: 1em;
     border-bottom: 1px solid #e6e6e6;
-    /* gap: 50px; */
 }
 
-.cartImage img{
+.cartImage img {
     width: 150px;
     height: 150px;
 }
+
+.deleteItem>button {}

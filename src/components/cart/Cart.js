@@ -20,7 +20,7 @@ const Cart = props => {
 
     const deleteItem = (id) => {
         console.log("deleted", id);
-        
+
         let temp = [];
         for (var i = 0; i < props.cartItems.length; i++) {
             if (props.cartItems[i].id !== id) {
@@ -44,7 +44,7 @@ const Cart = props => {
                     <div className={classes.cartImage}>
                         <img src={cartItem.imageURL}></img>
                     </div>
-                    <div>
+                    <div className={classes.itemDetails}>
                         <h2 className={classes.itemName}>{cartItem.name}</h2>
 
                         <div className={classes.itemDetails}>
