@@ -1,6 +1,24 @@
-.app{
+* {
+    padding: 0;
+}
+
+.app {
     font-family: 'Poppins', sans-serif;
 }
-*{
-    padding: 0;
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #F4EBD0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(18, 38, 32, 0.9);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #122620;
+
 }
