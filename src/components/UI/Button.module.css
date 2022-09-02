@@ -1,4 +1,4 @@
-button{
+button {
     background-color: #122620;
     color: #F4EBD0;
     border-radius: 8px;
@@ -8,7 +8,7 @@ button{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px;
 }
 
-button:hover{
-    background-color:  #fff;
+button:hover {
+    background-color: #fff;
     color: #122620;
 }

@@ -7,7 +7,7 @@ import Cart from "../cart/Cart";
 
 const Card = props => {
 
-    
+
 
     return (
         <div className={classes.cards}>
@@ -24,7 +24,7 @@ const Card = props => {
                             <div>
                                 {item.price}-Rs | {item.Quantity} {item.measurment}
                             </div>
-                            < Button id={item.id} cartItems = {props.cartItems} setCartItems={props.setCartItems} />
+                            < Button id={item.id} cartItems={props.cartItems} setCartItems={props.setCartItems} />
                         </li>)
                 })
                 }

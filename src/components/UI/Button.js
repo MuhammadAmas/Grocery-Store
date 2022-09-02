@@ -8,9 +8,9 @@ const Button = props => {
 
 
     const addToCartHandler = (e) => {
-       const temp = [...props.cartItems];
-       temp.push(items[props.id]);
-       props.setCartItems(temp);
+        const temp = [...props.cartItems];
+        temp.push(items[props.id]);
+        props.setCartItems(temp);
         // console.log(props.cartItems);
         // console.log(props.id);
 
